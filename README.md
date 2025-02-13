@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📌 Narrative Nexus - AI Content Generator  
 
-## Getting Started
+**Narrative Nexus** is an AI-powered content generator application designed to help users create engaging and high-quality content efficiently. Built using **Next.js, React, Tailwind CSS, PostgreSQL, Drizzle ORM, and Clerk for authentication**, the platform allows users to generate AI-driven content through customizable templates.  
 
-First, run the development server:
+![Hero Screenshot](screenshots/hero-image.png)  
+
+---
+
+## 🚀 Features  
+
+✅ **AI-Powered Content Generation** – Generate high-quality text efficiently using AI.  
+✅ **User Authentication** – Secure authentication with **Clerk**.  
+✅ **Customizable Templates** – Users can create and modify content templates.  
+✅ **Dashboard for Usage & Subscriptions** – View usage statistics and manage subscriptions.  
+✅ **Payment Integration** – Secure payments via **Razorpay**.  
+✅ **Responsive UI** – Built with **Tailwind CSS** for a seamless user experience.  
+
+---
+
+## 🛠 Tech Stack  
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Frontend:    Next.js, React, Tailwind CSS  
+Backend:     Next.js API routes, PostgreSQL, Drizzle ORM  
+Auth:        Clerk  
+Payments:    Razorpay  
+AI Model:    Google's Free AI API  
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📂 Project Structure  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+/narrative-nexus
+│── /app
+│   ├── /auth       # Authentication pages
+│   ├── /dashboard  # User dashboard
+│   ├── /api        # Backend API routes
+│── /components     # Reusable UI components
+│── /lib           # Database configuration with Drizzle ORM
+│── /public        # Static assets (images, icons, etc.)
+│── /styles        # Global styles
+│── next.config.js  # Next.js configuration
+│── package.json   # Dependencies & scripts
+│── README.md      # Project documentation
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🔧 Installation  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### **Prerequisites**  
+Ensure you have the following installed:  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```sh
+# Install Node.js (v18 or later)
+https://nodejs.org/
 
-## Deploy on Vercel
+# Install npm (comes with Node.js) or yarn
+npm -v   # Check npm version
+yarn -v  # Check yarn version (if using yarn)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Install PostgreSQL and set up a database
+https://www.postgresql.org/download/
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### **1️⃣ Clone the Repository**  
+```sh
+git clone https://github.com/your-username/narrative-nexus.git
+cd narrative-nexus
+```
+
+### **2️⃣ Install Dependencies**  
+```sh
+npm install
+```
+
+### **3️⃣ Set Up Environment Variables**  
+Create a `.env.local` file in the root directory and add:  
+
+```sh
+DATABASE_URL=your_postgresql_connection_string
+CLERK_SECRET_KEY=your_clerk_secret
+RAZORPAY_KEY=your_razorpay_key
+GOOGLE_AI_API_KEY=your_google_api_key
+```
+
+### **4️⃣ Run the Application**  
+```sh
+npm run dev
+```
+The application will be available at **http://localhost:3000**  
+
+---
+
+## 📸 Screenshots  
+
+### **Home Page**
+![Home Page](screenshots/homepage.png)  
+
+### **Dashboard**
+![Dashboard](screenshots/dashboard.png)  
+
+### **AI Content Generation**
+![AI Generator](screenshots/generator.png)  
+
+---
+
+## 🚀 Deployment  
+
+### **Vercel Deployment**  
+```bash
+1. Connect your GitHub repo to Vercel.  
+2. Set up environment variables in Vercel's settings.  
+3. Deploy with one click!  
+```
+
+### **Self-Hosting (Optional)**  
+To deploy manually, build the project and start it:  
+```sh
+npm run build
+npm start
+```
+
+---
+
+## 🛠 Future Enhancements  
+
+```bash
+- 🌟 Advanced AI models for better content generation  
+- 🔥 More customizable templates  
+- 📊 Analytics and user insights  
+```
+
+---
+
