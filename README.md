@@ -12,7 +12,6 @@
 ✅ **User Authentication** – Secure authentication with **Clerk**.  
 ✅ **Customizable Templates** – Users can create and modify content templates.  
 ✅ **Dashboard for Usage & Subscriptions** – View usage statistics and manage subscriptions.  
-✅ **Payment Integration** – Secure payments via **Razorpay**.  
 ✅ **Responsive UI** – Built with **Tailwind CSS** for a seamless user experience.  
 
 ---
