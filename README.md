@@ -97,10 +97,10 @@ The application will be available at **http://localhost:3000**
 ![Home Page](https://github.com/shivanisharma16/Narrative-Nexus/blob/main/home.png?raw=true)  
 
 ### **Dashboard**
-![Dashboard](screenshots/dashboard.png)  
+![Dashboard]((https://github.com/shivanisharma16/Narrative-Nexus/blob/main/Dashboard.png?raw=true))  
 
 ### **AI Content Generation**
-![AI Generator](screenshots/generator.png)  
+![AI Generator](https://github.com/shivanisharma16/Narrative-Nexus/blob/main/Output.png?raw=true)  
 
 ---
 
