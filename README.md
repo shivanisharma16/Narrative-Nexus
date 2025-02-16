@@ -2,8 +2,6 @@
 
 **Narrative Nexus** is an AI-powered content generator application designed to help users create engaging and high-quality content efficiently. Built using **Next.js, React, Tailwind CSS, PostgreSQL, Drizzle ORM, and Clerk for authentication**, the platform allows users to generate AI-driven content through customizable templates.  
 
-![Hero Screenshot](screenshots/hero-image.png)  
-
 ---
 
 ## 🚀 Features  
@@ -96,7 +94,7 @@ The application will be available at **http://localhost:3000**
 ## 📸 Screenshots  
 
 ### **Home Page**
-![Home Page](screenshots/homepage.png)  
+![Home Page](https://github.com/shivanisharma16/Narrative-Nexus/blob/main/home.png?raw=true)  
 
 ### **Dashboard**
 ![Dashboard](screenshots/dashboard.png)  
